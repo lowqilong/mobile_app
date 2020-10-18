@@ -10,7 +10,7 @@ class X {
 
 main() {
   var x = X('jack');
-  print('hello');
+  print('hi');
 
   var y = X('jill');
   print(y.name);
