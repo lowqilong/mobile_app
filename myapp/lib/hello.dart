@@ -1,5 +1,0 @@
-void main() {
-    dda
-    dsa                 
-            
-}
