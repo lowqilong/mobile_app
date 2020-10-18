@@ -1,8 +1,17 @@
-// 
+// dart:core
+import 'dart:io';
+
+class X {
+  final name; // type will be defined by inferred value
+  static const int age = 10;
+
+  X(this.name);
+}
 
 main() {
-  var firstName = 'Mahmud';
-  String lastName = 'Ahsan';
+  var x = X('jack');
+  print('hello');
 
-  print(firstName + ' ' + lastName)
+  var y = X('jill');
+  print(y.name);
 }
