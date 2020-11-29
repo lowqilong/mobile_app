@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:adobe_xd/pinned.dart';
-import '../Component21.dart';
+import './Component21.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class TodoHomepage extends StatelessWidget {
